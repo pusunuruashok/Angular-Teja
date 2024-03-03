@@ -1,0 +1,127 @@
+<!-- <h1>Name is ashok pusunru:{{title}} </h1> -->
+
+<!-- <h1 class="{{path}}">THis is heading</h1> --> 
+<!-- <h1>{{d}}</h1>
+<h1>{{d1}}</h1> -->
+<!-- <h1>{{d2}}</h1>
+Name:<input type="text">
+<button [disabled]=isdisabled>submit</button>
+<h1 [src]={{}}>THis is ashok</h1> -->
+<!-- <h1 [class]="isactive?'active':'inactive'">This is heading</h1> 
+<h2 [class]="{'c1':applyc1,active:applyc2}">THe name is kalyan</h2>
+<h3 [class.active]=isdisabled>this a venu batting expert</h3>
+<h4 [style]="{color:cvar} ">Rhis is styeling</h4>
+<button (click)="test()">click</button>
+<h1>Counter:{{counter}}</h1> -->
+<!-- City: <input type="text" [(ngModel)]="city"> -->
+<!-- City:<input type="text" [(ngModel)]="city">
+<h1>{{city}}</h1>
+<button (click)="test()">click me</button>  -->
+<!-- <h1 *ngIf="!isball; then load;else sampe"></h1>  -->
+
+<!-- <ng-template #load>
+    <h3>Loading....</h3>
+</ng-template>
+<ng-template #sampe>
+    <h3>{{isball}}aaaa</h3>
+</ng-template> -->
+<!-- <div *ngFor="let m of isball">paragraph : {{m}}</div> -->
+<!-- <input type="text" [(ngModel)]="op">
+  <div [ngSwitch]="op">
+    <div *ngSwitchCase="'+'">{{num1}}+{{num2}}={{num1+num2}}</div>
+    <div *ngSwitchCase="'-'">{{num1}}-{{num2}}={{num1-num2}}</div>
+    <div *ngSwitchCase="'*'">{{num1}}*{{num2}}={{num1*num2}}</div>
+    <div *ngSwitchCase="'/'">{{num1}}/{{num2}}={{num1/num2}}</div>
+    <div *ngSwitchDefault="'+'">Invalid match</div>
+</div>  -->
+
+<!-- <h1>{{name| uppercase}}</h1>
+<h1>{{name1| titlecase}}</h1>
+<h1>{{name2| lowercase}}</h1>
+<h1>{{sal | currency:"INR":"symbol"}}</h1>
+<h2>{{person| json}}</h2>
+<h4>{{dob | date:"dd/MM/yyyy"}}</h4>
+<h5>{{dob| date:"yyyy/MM/dd"}}</h5>
+<h5>{{ percent1| percent}}</h5>
+<h6>{{company| slice:2:5 }}</h6>
+ <h3>{{wish | test:"param1":"param2"}}</h3> -->
+<!-- <h4>{{person1| test:wish12 }}</h4> --> 
+<!-- <input type="text" placeholder="Enter email" #e value="abc@gmail.com"><br/>
+<button (click)="updateEmail(e)">CLick me</button>
+
+<div>{{e.value}}</div> -->
+
+<!-- clickme:<input type="text"  #e value="abc@gmail.com">
+<button (click)="updateButton(e)">click me</button>
+<h1>{{email}}</h1> -->
+<!-- clickme:<input type="text" [(ngModel)]="email">
+<button (click)="updateButton()">click me</button>
+<div>{{email}}</div> --> 
+<!-- <input type="text" value="abc@gmail.com" #e>
+<button (click)="updateButton(e)">click me</button>  
+<div>{{email}}</div> -->
+<!-- <input type="text" value="abc@gmail.com" #e>
+<button (click)="updateButton(e)">click me</button> 
+<div>{{email}}</div>  -->
+<!-- City:<input type="text" value="abc@gmail.com" #e>
+<button (click)="updateButton(e)">Click me</button>
+<div>{{email}}</div>  --> 
+<!-- City1:<input type="text" value="abc" [(ngModel)]="email">
+<button (click)="updateButton()">clickme</button>
+
+<div>{{email}}</div>  -->
+<!-- <h1>this is app component</h1>  -->
+<!-- <app-header [mane]="ashok">
+    <h2>{{ashok}}</h2>
+</app-header>  -->
+<!-- <h1>parent component:{{cdata}}</h1>
+<app-header (customeve)="cdata=$event"></app-header>  -->
+<!-- <h1>parent component: {{cdata}} </h1>
+<app-header (custome)="cdata=$event"></app-header>  -->
+<!-- <h1>parent component:{{cdata}}</h1>  -->
+<!-- <app-header (custome)="cdata=$event"></app-header>  -->
+<!-- Name:<input type="text" #t1> -->
+<!-- <button (click)="test()">click</button>
+<button (click)="test1()">clik me</button> --> 
+<!-- <input type="text" #test> -->
+<!-- <app-header ></app-header> -->
+<!-- <p #para>this is paragraph1</p>
+<p #para>this is paragraph2</p>
+<h1 #heading>THis is heading1</h1>
+<h1 #heading>This is heading2</h1>
+<button (click)="test()">click</button>  -->
+<!-- <app-header></app-header>
+<app-home></app-home> -->
+<ul>
+    <li>
+        <a routerLink="/about" routerLinkActive="active">About us</a>
+    </li>
+
+    <li>
+        <a routerLink="/home" routerLinkActive="active1">Home</a>
+    </li>
+
+    <li>
+        <a routerLink="/header" routerLinkActive="active2">Header</a> 
+    </li>
+
+    <!-- <li>
+        <a routerLink="/header" routerLinkActive="active3">Header</a> 
+    </li> -->
+
+
+
+</ul>
+
+<router-outlet></router-outlet>
+
+
+
+
+
+
+
+
+
+
+
